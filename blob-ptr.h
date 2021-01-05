@@ -18,7 +18,7 @@ public:
 
     T& deref() const;
 
-// HERE use operator++ and operator-- instead
+// HERE use operator++ and operator-- instead of incr
     Blob_ptr& incr();
 
 private:
